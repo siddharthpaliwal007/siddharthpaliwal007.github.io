@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://use.fontawesome.com/6fd261214c.js"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="stylesheet/style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Siddharth Paliwal</title>
+  </head>
+  <body class="container-fluid">
+    <header class="row">
+      <div id="header">
+        <div class="col-md-12 text-center" id="description">
+        <div class="text-center">
+          <img class="img-resposive profilepic" src="images/sid.jpg" alt="Sid's photo">
+        </div>
+
+
+          <div class="text-center"><span class="big text-responsive w3-animate-fading" id="intro">Hey Folks, I am Siddharth Paliwal!</span></div>
+          <div class="text-center" id="handles">
+            <a href=https://in.linkedin.com/in/siddharth-paliwal-1a442415b?trk=people-guest_people_search-card"><i class="fa fa-linkedin" aria-hidden="true"></i></a> 
+            <a href="https://github.com/siddharthpaliwal007/"><i class="fa fa-github" aria-hidden="true"></i></a>
+           
+          </div>
+          <a href="mailto:siddharthpaliwal007@gmail.com" class="btn">siddharthpaliwal007@gmail.com</a>
+      </div>
+    </header>
+
+    <div id="work col-md-12">
+      <div class="col-md-10" id="main-part">
+
+        <div class="text-center" id="about">
+          <h3>ABOUT ME</h3>
+          <p>
+            I am currently enrolled as a student at the University Of Windsor, Canada pursuing a graduate degree. I am majoring in Master of Applied Computing (MAC) for the Winter 2021 Term. I have previous experience in Blockchain Development at an IT company and also worked as a Research Assistant in Management at IIMA for a year. Talking about the undergraduate, I had completed B.E. Degree in Computer from the LDRP Institute of Technology and Research, Gandhinagar.
+          </p>
+
+          <h3 class="text-center">HOW I DECIDED TO GO IN THE DIRECTIONS OF COMPUTER TECHNOLOGY</h3>
+          <p>
+            As a young kid, when I saw my father, an IT professional, typing away on his laptop and engrossed in his work, I was curious to know what it was about this black box that had his attention. Like any child, possessing immense curiosity, I too waded my way to my father’s lap and bombarded him with questions on; What was he doing? What is this box? What does it do?, etc. And I very clearly remember my father laughing softly and patiently answering my questions in the simplest manner possible. Needless to say, I was very much impressed by that black box’s capabilities, especially on realizing that it had games that I could play with. Over the years, as I explored the wide-ranging functionality of this box, it was no longer a black box to me, but rather a cleverly designed system programmed to perform specific tasks. I used to ace my computer examinations and often attended technology-related seminars to understand the rapid development going on in the industry. I was particularly drawn towards understanding how these manifold computer applications were designed and developed.
+          </p>
+        </div>
+        <div class="col-md-12" id="projects">
+          <h3 class="text-center">PROJECTS</h3>
+            <h5 class="text-center" >Cheering Based Social Interaction Web Application,
+            Cryptocurrency Exchange Development,
+            Bitcoin Lightning Network (Test Network),
+            Smart Contract Audit,
+            Initial Coin Offering(ICO) Setup,
+            Ethereum Based Smart Contract on Blockchain Technology,
+            Shoppy – "The Shopping Mall BOT",
+            Course Bidding System</h5\\>
+        </div>
+      </div>
+      <div id="recent" class="col-md-2">
+        <h3 class="text-center">RECENTS</h3>
+        <br><br>
+        <div class="col-md-12">
+          <h4><b>CURRENTLY READING</b></h4>
+          <a class="link" href="https://www.amazon.in/dp/B004OEJN3I?tag=guru99-21&geniuslink=true">Hacking: The Art of Exploitation</a>
+        </div>
+        <br><br>
+        <div class="col-md-12">
+          <h4><b>MAJOR COURSE TAKEN</b></h4>
+          <a class="link" href="https://www.linkedin.com/learning/paths/become-an-ethical-hacker">Ethical Hacking</a> </br>
+          <a class="link" href="https://www.linkedin.com/learning/paths/advance-your-skills-in-the-blockchain">Blockchain</a> </br>
+          <a class="link" href="https://www.linkedin.com/learning/paths/advance-your-node-js-skills">Advance Node.js</a> 
+        </div>
+    
+      </div>
+    </div>
+  </body>
+  <script type="text/javascript">
+    let intro = ["Hey guys, my name is Sid!","a Developer","a Football Freak","a Premature Guitarist"];
+    let intro_section = document.getElementById("intro");
+    let index = 0;
+    let a = setInterval(function(){
+      index = (index + 1)%intro.length;
+      intro_section.innerHTML = intro[index];
+    },3000);
+  </script>
+</html>
