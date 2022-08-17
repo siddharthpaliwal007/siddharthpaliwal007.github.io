@@ -49,13 +49,13 @@ ul{
   list-style-type: circle;
 }
 header{
-  background-color: rgb(0,0,50);
+  background-color: rgb(0,0,0);
   color:#fff;
   padding:20px;
 }
 .link{
   text-decoration:underline;
-  color: rgb(0,0,80);
+  color: rgb(80,80,80);
 }
 
 button{
@@ -83,8 +83,8 @@ button{
  background-image: -webkit-gradient(linear,
                                     left bottom,
                                     left top,
-                                    color-stop(0.4, rgb(122,153,217)),
-                                    color-stop(0.7, rgb(73,125,189)),
-                                    color-stop(0.99, rgb(28,58,148)));
+                                    color-stop(0.4, rgb(0,0,0)),
+                                    color-stop(0.7, rgb(30,30,30)),
+                                    color-stop(0.99, rgb(100,100,100)));
 }
 /* scrollbar code ends */
